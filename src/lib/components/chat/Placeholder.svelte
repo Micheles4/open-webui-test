@@ -105,40 +105,16 @@
 		class="w-full text-3xl text-gray-800 dark:text-gray-100 text-center flex items-center gap-4 font-primary"
 	>
 		<div class="w-full flex flex-col justify-center items-center">
-			<div class="flex flex-row justify-center gap-3 @sm:gap-3.5 w-fit px-5">
-				<div class="flex shrink-0 justify-center">
-					<div class="flex -space-x-4 mb-0.5" in:fade={{ duration: 100 }}>
-						{#each models as model, modelIdx}
-							<Tooltip
-								content={(models[modelIdx]?.info?.meta?.tags ?? [])
-									.map((tag) => tag.name.toUpperCase())
-									.join(', ')}
-								placement="top"
-							>
-								<button
-									on:click={() => {
-										selectedModelIdx = modelIdx;
-									}}
-								>
-									<img
-										crossorigin="anonymous"
-										src={model?.info?.meta?.profile_image_url ??
-											($i18n.language === 'dg-DG'
-												? `/doge.png`
-												: `${WEBUI_BASE_URL}/static/favicon.png`)}
-										class=" size-9 @sm:size-10 rounded-full border-[1px] border-gray-100 dark:border-none"
-										alt="logo"
-										draggable="false"
-									/>
-								</button>
-							</Tooltip>
-						{/each}
-					</div>
-				</div>
+				<img
+					src="{WEBUI_BASE_URL}/static/favicon.png"
+					alt="OI-Logo"
+					class="w-16 h-16 mb-6"
+					draggable="false"
+		    		/>
 
 				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed" in:fade={{ duration: 100 }}>
 					o1 und o3 Modelle bitte sparsam benutzen.<br />
-					<span class="block mt-3">
+					<span class="block mt-4">
 					    Für sensible Daten die folgenden Modelle verwenden:
 					</span>
 					<span class="block mt-1 font-mono text-blue-400">
