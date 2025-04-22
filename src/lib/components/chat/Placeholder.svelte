@@ -136,12 +136,9 @@
 					</div>
 				</div>
 
-				<div class=" text-3xl @sm:text-4xl line-clamp-1" in:fade={{ duration: 100 }}>
-					{#if models[selectedModelIdx]?.name}
-						{models[selectedModelIdx]?.name}
-					{:else}
-						{$i18n.t('Hello, {{name}}', { name: $user?.name })}
-					{/if}
+				<div class="text-2xl @sm:text-3xl font-bold text-gray-100 text-center mt-6 mb-2" in:fade={{ duration: 100 }}>
+					o1 und o3 Modelle bitte sparsam benutzen.<br />
+					Für sensible Daten: Modelle aus der Spalte Local auswählen.
 				</div>
 			</div>
 
