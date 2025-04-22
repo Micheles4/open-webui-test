@@ -122,7 +122,8 @@
 					</span>
 				    </div>
 			</div>
-
+		</div>		
+		
 			<div class="flex mt-1 mb-2">
 				<div in:fade={{ duration: 100, delay: 50 }}>
 					{#if models[selectedModelIdx]?.info?.meta?.description ?? null}
