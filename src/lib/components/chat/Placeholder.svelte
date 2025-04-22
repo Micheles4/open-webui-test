@@ -136,14 +136,13 @@
 					</div>
 				</div>
 
-				<div class="text-2xl md:text-3xl text-gray-100 text-center mt-6 mb-2 leading-relaxed" in:fade={{ duration: 100 }}>
+				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed" in:fade={{ duration: 100 }}>
 					o1 und o3 Modelle bitte sparsam benutzen.<br />
-					<span class="block mt-4 text-lg md:text-xl text-gray-300">
+					<span class="block mt-3">
 					    Für sensible Daten folgende Modelle verwenden:
-					    <span class="font-mono text-blue-400">deepseek</span>, 
-					    <span class="font-mono text-blue-400">gemma</span>, 
-					    <span class="font-mono text-blue-400">llama</span> oder 
-					    <span class="font-mono text-blue-400">mistral</span>.
+					</span>
+					<span class="block mt-1 font-mono text-blue-400">
+					    deepseek, gemma, llama, mistral
 					</span>
 				    </div>
 			</div>
