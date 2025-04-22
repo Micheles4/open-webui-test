@@ -136,8 +136,8 @@
 					</div>
 				</div>
 
-				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed" in:fade={{ duration: 100 }}>
-					<span class="font-bold">o1 und o3 Modelle bitte sparsam benutzen.</span><br />
+				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed font-bold" in:fade={{ duration: 100 }}>
+					o1 und o3 Modelle bitte sparsam benutzen.<br />
 					<span class="block mt-4">
 					    	Für sensible Daten die folgenden Modelle verwenden:
 					</span>
