@@ -145,6 +145,7 @@
 					    	deepseek, gemma, llama, mistral
 					</span>
 				</div>
+			</div>
 
 			<div class="flex mt-1 mb-2">
 				<div in:fade={{ duration: 100, delay: 50 }}>
