@@ -138,7 +138,7 @@
 
 				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed font-bold" in:fade={{ duration: 100 }}>
 					<span class="block mb-2">
-					  🧠 Reasoning-Modelle <span class="font-mono text-blue-400">(deepseek, o1, o3, o4-mini)</span>
+					  🧠 Reasoning-Modelle <span class="font-mono">(o1, o3, o4-mini, deepseek)</span>
 					</span>
 					<ul class="list-disc list-inside text-base md:text-lg text-gray-300 font-normal mb-2">
 					  <li>Spezialisiert auf komplexes logisches Denken und tiefgehende Problemlösungen</li>
@@ -146,7 +146,7 @@
 					</ul>
 				      
 					<span class="block mt-4 mb-2">
-					  📃 Generalistische Modelle <span class="font-mono text-blue-400">(GPT-4 Modelle, <span class="text-blue-400">codellama, gemma, llama3.1, mistral</span>)</span>
+					  📃 Generalistische Modelle <span class="font-mono">(GPT-4 Modelle, codellama, gemma, llama3.1, mistral)</span>
 					</span>
 					<ul class="list-disc list-inside text-base md:text-lg text-gray-300 font-normal mb-2">
 					  <li>Vielfältig einsetzbar und effizient bei Standardaufgaben</li>
@@ -160,11 +160,9 @@
 					  <li>Hohe Geschwindigkeit &amp; Optimiert für kleine Aufgaben</li>
 					</ul>
 				      
-					<span class="block mt-6 mb-1 text-blue-400">
-					  Für sensible Daten bitte Open Source Modelle verwenden
-					</span>
-					<span class="block font-mono text-blue-400">
-					  deepseek, codellama, gemma, llama3.1, mistral
+					<span class="block mt-6 mb-1 text-yellow-400">
+					  🔒 Für sensible Daten bitte Open Source Modelle verwenden 
+					  <span class="font-mono text-yellow-400">(deepseek, codellama, gemma, llama3.1, mistral)</span>
 					</span>
 				</div>
 				
