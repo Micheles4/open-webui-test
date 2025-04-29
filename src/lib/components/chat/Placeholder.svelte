@@ -137,12 +137,31 @@
 				</div>
 
 				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed font-bold" in:fade={{ duration: 100 }}>
-					o1 und o3 Modelle bitte sparsam benutzen.<br />
-					<span class="block mt-4">
-					    	Für sensible Daten die folgenden Modelle verwendenAAAAAAAAAAAAAAAAAAA:
+					<span class="block mb-2">
+					  🧠 Reasoning-Modelle <span class="font-mono text-gray-300">(o1, o3, o4-mini, deepseek)</span> 
 					</span>
-					<span class="block mt-1 font-mono text-blue-400">
-					    	deepseek, gemma, llama, mistral
+					<span class="block font-normal text-base md:text-lg text-gray-300 mb-2">
+					  Spezialisiert auf komplexes logisches Denken und tiefgehende Problemlösungen<br />
+					  Ideal für anspruchsvolle Aufgaben wie mathematische Begründungen, Analysen oder fundierte Entscheidungshilfen.
+					</span>
+					
+					<span class="block mt-4 mb-2">
+					  📃 Generalistische Modelle <span class="font-mono text-gray-300">(GPT-4 Modelle, codellama, gemma, llama3.1, mistral)</span>
+					</span>
+					<span class="block font-normal text-base md:text-lg text-gray-300 mb-2">
+					  Vielfältig einsetzbar und effizient bei Standardaufgaben<br />
+					  Perfekt für Textgenerierung, E-Mails, Zusammenfassungen, Übersetzungen sowie alle Arten von Standard-Chatbots.
+					</span>
+					
+					<span class="block mt-4 mb-2">
+					  ⚡️ Mini-Modelle
+					</span>
+					<span class="block font-normal text-base md:text-lg text-gray-300">
+					  Hohe Geschwindigkeit &amp; optimiert für kleine Aufgaben.
+					</span>
+					
+					<span class="block mt-6 mb-1 text-yellow-300">
+					  🔒 Für sensible Daten bitte Open Source Modelle verwenden <span class="font-mono text-blue-400">(blaue Schrift)</span>
 					</span>
 				</div>
 				
