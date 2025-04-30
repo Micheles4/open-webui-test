@@ -150,7 +150,7 @@
 					</span>
 					<ul class="list-disc list-inside text-base md:text-lg text-gray-300 font-normal mb-2">
 					  <li>Vielfältig einsetzbar und effizient bei Standardaufgaben</li>
-					  <li>Perfekt für Textgenerierung, E-Mails, Zusammenfassungen, Übersetzungen sowie alle Arten von Standard-Chatbots</li>
+					  <li>Perfekt für Textgenerierung, E-Mails, Zusammenfassungen, Übersetzungen, etc.</li>
 					</ul>
 				      
 					<span class="block mt-4 mb-2">
