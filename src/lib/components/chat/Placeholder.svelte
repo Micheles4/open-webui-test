@@ -149,7 +149,7 @@
 					</ul>
 
 					<span class="block mt-6 mb-1 text-red-400 text-base font-semibold">
-						⚠️ Bitte o1 und o3 Modelle sparsam benutzen – sie sind ressourcenintensiv!
+						⚠️ Bitte o1 und o3 Modelle sparsam benutzen
 					</span>
 	
 					<span class="block mt-4 mb-1 text-yellow-400">
