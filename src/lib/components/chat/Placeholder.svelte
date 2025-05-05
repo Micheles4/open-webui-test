@@ -148,9 +148,9 @@
 						<li>Hohe Geschwindigkeit &amp; Optimiert für kleine Aufgaben</li>
 					</ul>
 
-					<div class="text-sm text-red-400 font-semibold mb-2">
-						⚠️ Bitte o1 und o3 Modelle sparsam benutzen!
-					</div>
+					<span class="block mt-6 mb-1 text-red-400 text-base font-semibold">
+						⚠️ Bitte o1 und o3 Modelle sparsam benutzen – sie sind ressourcenintensiv!
+					</span>
 	
 					<span class="block mt-4 mb-1 text-yellow-400">
 						🔒 Für sensible Daten bitte Open Source Modelle verwenden 
