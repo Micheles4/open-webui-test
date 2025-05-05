@@ -126,7 +126,7 @@
 					</div>
 				</div>
 
-				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed font-bold" in:fade={{ duration: 100 }}>
+				<div class="text-lg md:text-xl text-gray-100 text-center mt-6 mb-2 leading-relaxed font-bold">
 					<span class="block mb-2">
 					  	🧠 Reasoning-Modelle <span class="font-mono">(o1, o3, o4-mini, deepseek)</span>
 					</span>
