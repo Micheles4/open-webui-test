@@ -156,7 +156,7 @@
 						🔒 Für sensible Daten bitte Open Source Modelle verwenden 
 						<span class="font-mono"> (deepseek, codellama, gemma, llama3.1, mistral)</span>
 					</span>
-				
+				</div>
 			</div>
 
 			<div class="flex mt-1 mb-2">
