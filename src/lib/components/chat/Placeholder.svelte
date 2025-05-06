@@ -124,39 +124,38 @@
 					</div>
 				</div>
 
-				<div class="text-sm md:text-base text-gray-100 text-center mt-4 mb-1 leading-relaxed font-bold">
+				<div class="text-base md:text-lg text-gray-800 dark:text-gray-100 text-center mt-4 mb-1 leading-relaxed font-bold">
 					<span class="block mb-1">
 						🧠 Reasoning-Modelle <span class="font-mono">(o1, o3, o4-mini, deepseek)</span>
 					</span>
-					<ul class="list-disc list-inside text-sm text-gray-300 font-normal mb-1">
+					<ul class="list-disc list-inside text-sm md:text-base text-gray-600 dark:text-gray-300 font-normal mb-1">
 						<li>Spezialisiert auf komplexes logisches Denken und tiefgehende Problemlösungen</li>
 						<li>Ideal für anspruchsvolle Aufgaben wie mathematische Begründungen, Analysen oder fundierte Entscheidungshilfen.</li>
 					</ul>
-	
+				
 					<span class="block mt-3 mb-1">
 						📃 Generalistische Modelle <span class="font-mono">(GPT-4 Modelle, codellama, gemma, llama3.1, mistral)</span>
 					</span>
-					<ul class="list-disc list-inside text-sm text-gray-300 font-normal mb-1">
+					<ul class="list-disc list-inside text-sm md:text-base text-gray-600 dark:text-gray-300 font-normal mb-1">
 						<li>Vielfältig einsetzbar und effizient bei Standardaufgaben</li>
 						<li>Perfekt für Textgenerierung, E-Mails, Zusammenfassungen, Übersetzungen, etc.</li>
 					</ul>
-	
+				
 					<span class="block mt-3 mb-1">
 						⚡️ Mini-Modelle
 					</span>
-					<ul class="list-disc list-inside text-sm text-gray-300 font-normal">
+					<ul class="list-disc list-inside text-sm md:text-base text-gray-600 dark:text-gray-300 font-normal">
 						<li>Hohe Geschwindigkeit &amp; Optimiert für kleine Aufgaben</li>
 					</ul>
-
-					<span class="block mt-6 mb-1 text-red-400 text-base font-semibold">
+				
+					<span class="block mt-6 mb-1 text-red-600 dark:text-red-400 text-base md:text-lg font-semibold">
 						⚠️ Bitte o1 und o3 Modelle sparsam benutzen
 					</span>
-	
-					<span class="block mt-4 mb-1 text-yellow-400">
+				
+					<span class="block mt-4 mb-1 text-yellow-600 dark:text-yellow-400 text-base md:text-lg font-semibold">
 						🔒 Für sensible Daten bitte Open Source Modelle verwenden 
-						<span class="font-mono text-yellow-400">(deepseek, codellama, gemma, llama3.1, mistral)</span>
+						<span class="font-mono"> (deepseek, codellama, gemma, llama3.1, mistral)</span>
 					</span>
-				</div>
 				
 			</div>
 
